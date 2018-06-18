@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet"><!-- google fonts -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Livie Calc</title>
+</head>
+<header>
+
+	</header>
+<body id="body1">
+	<div><img src="images/new.png"></div> <!-- big bird picture -->
+	<!-- <button id="but" onclick="document.getElementById('calc').style.backgroundImage=url("grinch.png")>click here</button> -->
+<div>
+<div id="calc">
+	<form name="calculator">
+		<div id= "display"><input type="text" name="display" size="14"/></div>
+			<br>
+			<div class="button"> <!-- all the buttons on calculator -->
+				<input  type="button" name="seven" value= " 7 " Onclick = "calculator.display.value +='7'"/>
+				<input  type="button" name="eight" value= " 8 " Onclick="calculator.display.value +='8'"/>
+				<input  type="button" name="nine" value= " 9 " Onclick="calculator.display.value +='9'"/>
+				<input  type="button" name="div" value= " / " name="/" Onclick="calculator.display.value +='/'"/>
+			<br> <!-- to give rows -->
+				<input  type="button" name="four" value= " 4 " Onclick="calculator.display.value +='4'"/>
+				<input  type="button" name="five" value= " 5 " Onclick="calculator.display.value +='5'"/>
+				<input  type="button" name="six" value= " 6 " Onclick="calculator.display.value +='6'"/>
+				<input  type="button" name="mult" value= " x " Onclick="calculator.display.value +='*'"/>
+			<br>
+				<input  type="button" name="one" value= " 1 " Onclick="calculator.display.value +='1'"/>
+				<input  type="button" name="two" value= " 2 " Onclick="calculator.display.value +='2'"/>
+				<input  type="button" name="three" value= " 3 " Onclick="calculator.display.value +='3'"/>
+				<input  type="button" name="sub" value= " - " Onclick="calculator.display.value +='-'"/>
+			<br>
+				<input type= "button" name="add" value= " + " Onclick="calculator.display.value +='+'"/>
+				<input  type="button" name="zero" value= " 0 " Onclick="calculator.display.value +='0'"/>
+				<input type= "button" name="sum" value="=" Onclick="calculator.display.value = eval(calculator.display.value);playAudio();">
+				<input type="button" name="avg" value="avg" Onclick="calculator.diplay.value='">
+				<input type="button" name="c" value="C" Onclick="calculator.display.value=('')">
+				
+			</div>
+	</form>
+</div>
+<!-- <div id="elmo">
+	<img src="mo.png">
+</div> -->
+</div><audio id="momo"> <!-- audio to the equal button -->
+
+<source src="audio/mo.mp3" type="audio/mpeg">
+<script type="text/javascript">
+	
+	var x = document.getElementById("momo");
+
+	function playAudio() {
+  	 x.play(); 
+}
+</script>
+</body>
+</html>

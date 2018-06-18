@@ -1,0 +1,71 @@
+div{
+			display: block;
+		}
+		body{ /*overall background*/
+			margin: 20px;
+			display: flex;
+			background:url(../images/street.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			text-align: center;
+			font-family: 'Gamja Flower', cursive;
+			color:black;
+			padding-right: 20px;
+		}
+		h1{
+			font-size: 65px;
+		}
+		input[type=button] /*individual buttons*/
+		{
+			font-size: 50px;
+			font-family: 'Gamja Flower', cursive;
+			background-color: #F9A800;
+			color:white;
+			border-radius: 10px;
+			padding: 4px;
+			margin: 3px;
+		}
+		input:hover[type=button] /*individual buttons get bigger when hovered over*/
+		{
+			background-color: pink;
+			font-size:65px;
+		}
+		input[type=text]
+		{
+			font-size: 20px;
+			margin: 105px;
+			padding-right: 120px;
+		}
+		input:hover[type=text]
+		{
+
+		}
+		.Livie{
+			background-size: contain;
+			width: 924px;
+			lenth:103px;
+		}
+		
+		.calculator{
+			padding: 10px;
+		}
+		#calc{
+	
+			background:url(../images/emo.png);
+			width: 468px;
+			height: 748px;
+			margin: 100px;
+			border:solid thick black;
+			border-radius: 30px;
+
+		}
+		/*#but{
+			height:50px;
+			width: 50px;*/
+		}
+		#form{
+			margin:200px; 
+			display:inline-table;
+		}
+		
